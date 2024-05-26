@@ -1,0 +1,98 @@
+.padded {
+    font-size: 16px;
+    padding: 2em;
+}
+
+body {
+    margin: 1.5em;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.about-us {
+    font-size: 2em;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+.box-em {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lightgray;
+}
+
+.box-small {
+    font-size: 12px;
+}
+
+.box-large {
+    font-size: 18px;
+}
+
+.box-with-em {
+    border: 2px solid red;
+    padding: 30px;
+}
+
+.box-without-em {
+    border: 2px solid blue;
+    padding: 30px;
+}
+
+.slogan {
+    font-size: 1.2em;
+    padding: 1.2em;
+    background-color: #ccc;
+}
+
+:root {
+    font-size: calc(0.5em + 1vw);
+    --main-font: Helvetica, Arial, sans-serif;
+    --brand-color: #369;
+
+    --main-bg: #fff;
+    --main-color: #000;
+}
+
+p {
+    font-family: var(--main-font, sans-serif);
+    color: var(--brand-color, blue);
+}
+
+.panel {
+    font-size: 1rem;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 1px solid #999;
+    background-color: var(--main-bg);
+    color: var(--main-color);
+}
+
+.dark {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #999;
+    --main-bg: #333;
+    --main-color: #fff;
+}
+
+.panel > h2 {
+    margin-top: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panel.large {
+    font-size: 1.2rem;
+}
+
+.square {
+    width: 90vmin;
+    height: 90vmin;
+    background-color: #369;
+}
